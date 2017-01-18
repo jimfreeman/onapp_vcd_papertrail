@@ -1,0 +1,9 @@
+files: 
+  - /onapp/interface/log/production.log
+  - /onapp/interface/log/production_vcloud.log
+  - /onapp/interface/log/production_vcloud_stats_runner.log
+  - /onapp/interface/log/vcloud_rest.log
+destination:
+  host: HOST.papertrailapp.com # NOTE: change this to YOUR papertrail host!
+  port: 12345   # NOTE: change to your Papertrail port
+  protocol: tls
